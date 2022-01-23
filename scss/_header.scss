@@ -1,0 +1,33 @@
+#intro{
+    background: url(../img/no-gluten-bread.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 500px;
+    .bg-color {
+        background-color: RGBA(0, 0, 0, 0.61);
+        min-height: 500px;
+    }
+}
+.set-title {
+    justify-content: center;
+}
+.first-title {
+    font-size: 80px;
+    margin-top: 140px;
+    font-family: 'Caveat', Bold cursive;
+    color: rgb(247, 141, 42);
+    letter-spacing: 10px;
+}
+.second-title {
+    font-size: 50px;
+    color: rgba(184, 42, 10, 0.905);
+    font-family: 'Caveat', cursive;
+    margin-top: 5px;
+    letter-spacing: 3px;
+}
+
+.third-title {
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Satisfy', cursive;
+    color: rgba(245, 245, 220, 0.604);
+}

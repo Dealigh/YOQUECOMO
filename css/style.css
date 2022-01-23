@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Lora:wght@700&family=Luxurious+Roman&family=Montserrat:wght@300&family=Oswald:wght@500&family=Roboto:wght@500&family=Satisfy&display=swap");
+body {
+  font-size: 15px;
+  line-height: 1.52;
+  color: #717f86; }
+
+#intro {
+  background: url(../img/no-gluten-bread.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 500px; }
+  #intro .bg-color {
+    background-color: RGBA(0, 0, 0, 0.61);
+    min-height: 500px; }
+
+.set-title {
+  justify-content: center; }
+
+.first-title {
+  font-size: 80px;
+  margin-top: 140px;
+  font-family: 'Caveat', Bold cursive;
+  color: #f78d2a;
+  letter-spacing: 10px; }
+
+.second-title {
+  font-size: 50px;
+  color: rgba(184, 42, 10, 0.905);
+  font-family: 'Caveat', cursive;
+  margin-top: 5px;
+  letter-spacing: 3px; }
+
+.third-title {
+  font-size: 25px;
+  margin-top: 30px;
+  font-family: 'Satisfy', cursive;
+  color: rgba(245, 245, 220, 0.604); }
+
+#leyendas {
+  padding: 80px 0px; }
+
+.leyenda_text_one {
+  line-height: 20px; }
+  @media only screen and (max-width: 768px) {
+    .leyenda_text_one {
+      padding-left: 30px;
+      padding-right: 30px; } }
+
+.leyenda_uno {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+  @media only screen and (max-width: 768px) {
+    .leyenda_uno {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  .leyenda_uno .leyenda_text_two {
+    text-align: justify;
+    line-height: 28px; }
+  .leyenda_uno .leyenda_img_one {
+    border: 5px solid #ffb03b;
+    padding-left: 0px;
+    padding-right: 0px; }
+    @media only screen and (min-width: 1200px) {
+      .leyenda_uno .leyenda_img_one {
+        width: 200px;
+        height: 250px; } }
+    @media only screen and (max-width: 768px) {
+      .leyenda_uno .leyenda_img_one {
+        size: 95%; } }
+
+#declaration {
+  background-color: #BAF882;
+  background-size: cover;
+  min-height: 350px;
+  padding: 80px 0px; }
+
+.decl-mision {
+  color: #020202;
+  justify-content: center; }
+  .decl-mision .decl-title {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Caveat', cursive;
+    color: #f78d2a;
+    text-decoration: underline 3px; }
+  .decl-mision .decl-text {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; }
+
+.decl-vision {
+  color: #020202; }
+  .decl-vision .decl-title {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Caveat', cursive;
+    color: #f78d2a;
+    text-decoration: underline 3px; }
+  .decl-vision .decl-text {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; }
+
+#ubication {
+  background-size: cover;
+  min-height: 500px; }
+  #ubication .ubi-bg-color {
+    min-height: 500px;
+    padding: 80px 0px; }
+
+.ubi-title {
+  color: #f78d2a;
+  font-size: 60px;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center; }
+
+.ubi-map {
+  border-radius: 120px 0px / 120px; }
+  @media only screen and (min-width: 1200px) {
+    .ubi-map {
+      display: flex;
+      justify-content: Center;
+      align-items: Center;
+      align-content: Center; } }
+  @media only screen and (max-width: 768px) {
+    .ubi-map {
+      margin-top: 10%;
+      width: 100%;
+      height: 350px; } }
+
+.ubi-img {
+  border-radius: 10px 100px / 120px; }
+  @media only screen and (min-width: 1200px) {
+    .ubi-img {
+      display: flex;
+      justify-content: Center;
+      align-items: Center;
+      align-content: Center;
+      height: 450px; } }
+  @media only screen and (max-width: 768px) {
+    .ubi-img {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 100%;
+      height: 350px; } }
+
+#footer {
+  background-color: #84EDF8;
+  background-size: cover;
+  min-height: 350px;
+  padding-top: 80px; }
+
+.footer-logo {
+  width: 375px;
+  height: 250px; }
+
+.footer-title {
+  color: #f78d2a;
+  font-size: 45px;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start; }
+
+.btn-rrss {
+  width: 50px;
+  height: 44px;
+  margin: 5px 0px 0px 10px;
+  padding: 0px;
+  border-color: none; }
+  .btn-rrss .bi-facebook, .btn-rrss .bi-instagram, .btn-rrss .bi-whatsapp {
+    width: 40px;
+    height: 40px;
+    color: #3b5999;
+    transition: transform 0.2s;
+    border-color: none; }
+    .btn-rrss .bi-facebook:hover, .btn-rrss .bi-instagram:hover, .btn-rrss .bi-whatsapp:hover {
+      transform: scale(1.45, 1.45); }
+  .btn-rrss .bi-instagram {
+    color: #e1306c;
+    border-color: none; }
+  .btn-rrss .bi-whatsapp {
+    color: #4FCE5D;
+    border-color: none; }

@@ -1,0 +1,43 @@
+#declaration {
+    background-color: #BAF882;
+    background-size: cover;
+    min-height: 350px;
+    padding: 80px 0px;
+    
+}
+.decl-mision {
+    color: rgb(2, 2, 2);
+    justify-content: center;
+
+    .decl-title {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        font-family: 'Caveat', cursive;
+        color: rgb(247, 141, 42);
+        text-decoration: underline 3px;
+    }
+    
+    .decl-text {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+.decl-vision {
+    color: rgb(2, 2, 2);
+    .decl-title {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        font-family: 'Caveat', cursive;
+        color: rgb(247, 141, 42);
+        text-decoration: underline 3px;
+    }
+    
+    .decl-text {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

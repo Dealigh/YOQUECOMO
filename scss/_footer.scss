@@ -1,0 +1,74 @@
+@mixin sizes($width, $height){
+	width: $width;
+	height: $height;
+}
+
+@mixin Centered($justcont, $alitems, $alitent) {
+    justify-content: $justcont;
+    align-items: $alitems;
+    align-content: $alitent;
+}
+@mixin mobile {
+	@media only screen and (max-width: 768px) {
+	  @content;
+	}
+}
+  
+@mixin desktop {
+	@media only screen and (min-width: 1200px) {
+	  @content;
+	}
+}
+$SocialColor:(
+    Face: #3b5999,
+    Ins: #e1306c,
+    Wsp: #4FCE5D,
+);
+
+#footer {
+    background-color: #84EDF8; 
+    background-size: cover;
+    min-height: 350px;
+    padding-top: 80px;
+}
+// #70aec5;
+.footer-logo {
+    width: 375px;
+    height: 250px;
+}
+.footer-title{
+    color: rgb(247, 141, 42);
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.btn-rrss {
+    @include sizes(50px, 44px );
+    margin: 5px 0px 0px 10px;
+    padding: 0px;
+    border-color: none;
+    .bi-facebook {
+        @include sizes(40px, 40px );
+        color: map-get($SocialColor, Face);
+        transition: transform 0.2s;
+        border-color: none;
+        &:hover {
+            transform: scale(1.45, 1.45);
+        }
+        
+    }
+    .bi-instagram {
+        @extend .bi-facebook;
+        color: map-get($SocialColor, Ins);
+        border-color: none;
+    }
+    .bi-whatsapp {
+        @extend .bi-facebook;
+        color: map-get($SocialColor, Wsp);
+        border-color: none;
+    }
+}

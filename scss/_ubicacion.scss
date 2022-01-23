@@ -1,0 +1,68 @@
+@mixin sizes($width, $height){
+	width: $width;
+	height: $height;
+}
+
+@mixin Centered($justcont, $alitems, $alitent) {
+    justify-content: $justcont;
+    align-items: $alitems;
+    align-content: $alitent;
+}
+@mixin mobile {
+	@media only screen and (max-width: 768px) {
+	  @content;
+	}
+}
+  
+@mixin desktop {
+	@media only screen and (min-width: 1200px) {
+	  @content;
+	}
+}
+
+
+#ubication {
+    // background: url(../img/declaration-img.png) no-repeat center top;
+    background-size: cover;
+    min-height: 500px;
+    .ubi-bg-color {
+        // background-color: RGBA(0, 0, 0, 0.40);
+        min-height: 500px;
+        padding: 80px 0px;
+    }
+}
+.ubi-title{
+    color: rgb(247, 141, 42);
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ubi-map {
+    border-radius: 120px 0px / 120px;
+    @include desktop {
+        display: flex;
+    @include Centered(Center, Center, Center);
+    }
+    @include mobile {
+        margin-top: 10%;
+        width:  100%;
+        height: 350px;
+    }
+}
+.ubi-img {
+	border-radius: 10px 100px / 120px;
+    @include desktop {
+        display: flex;
+    @include Centered(Center, Center, Center);
+    height: 450px;
+    }
+    @include mobile {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width:  100%;
+        height: 350px;
+    }
+}
