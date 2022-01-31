@@ -149,7 +149,7 @@ body {
       height: 350px; } }
 
 #footer {
-  background-color: #84EDF8;
+  background-color: #93c6ed;
   background-size: cover;
   min-height: 350px;
   padding-top: 80px; }
@@ -186,3 +186,8 @@ body {
   .btn-rrss .bi-whatsapp {
     color: #4FCE5D;
     border-color: none; }
+
+.credits {
+  color: #545454;
+  font-size: 15px;
+  margin-top: 80px; }

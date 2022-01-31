@@ -26,7 +26,7 @@ $SocialColor:(
 );
 
 #footer {
-    background-color: #84EDF8; 
+    background-color: #93c6ed;
     background-size: cover;
     min-height: 350px;
     padding-top: 80px;
@@ -71,4 +71,10 @@ $SocialColor:(
         color: map-get($SocialColor, Wsp);
         border-color: none;
     }
+}
+
+.credits {
+    color: rgb(84, 84, 84);
+    font-size: 15px;
+    margin-top: 80px;
 }
